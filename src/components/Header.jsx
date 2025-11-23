@@ -24,7 +24,6 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           
-          {/* Logo & Branding */}
           <Link to="/" className="flex items-center space-x-3 group transition-transform hover:scale-105">
             <img src={logo} alt="InnoHeza Ltd. Puzzle Logo" className="w-12 h-12" />
             <div>
@@ -33,7 +32,6 @@ const Header = () => {
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-1">
             {navItems.map((item) => (
               <Link
@@ -50,7 +48,6 @@ const Header = () => {
             ))}
           </div>
 
-          {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="lg:hidden p-2 text-teal-700 hover:bg-teal-50 rounded-lg"
@@ -59,7 +56,6 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
         {mobileMenuOpen && (
           <div className="lg:hidden mt-4 pb-4 space-y-2">
             {navItems.map((item) => (

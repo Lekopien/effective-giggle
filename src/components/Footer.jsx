@@ -8,7 +8,6 @@ const Footer = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-4 gap-8 text-center md:text-left">
           
-          {/* 1. InnoHeza Mission */}
           <div>
             <h3 className="font-bold text-xl mb-4 flex items-center justify-center md:justify-start">
               <Heart size={20} className="mr-2 text-orange-400" /> InnoHeza Ltd.
@@ -18,7 +17,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* 2. Quick Links (Pages) */}
           <div>
             <h3 className="font-bold text-xl mb-4">Quick Links</h3>
             <div className="space-y-2">
@@ -29,7 +27,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* 3. Join & Updates */}
           <div>
             <h3 className="font-bold text-xl mb-4">Join Us & Stories</h3>
             <div className="space-y-2">
@@ -39,7 +36,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* 4. Contact & Legal */}
           <div>
             <h3 className="font-bold text-xl mb-4">Contact</h3>
             <div className="space-y-3">
